@@ -31,8 +31,8 @@ public class AutomationTest2 {
         driver.quit();
 
 
-       // System.out.println(" println is not working ");
-       // Set<String> windowHandles1 = driver.getWindowHandles(); also Set is not working why?
+        System.out.println(" test is done ");
+
 
 
     }

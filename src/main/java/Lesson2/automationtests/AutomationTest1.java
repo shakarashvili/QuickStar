@@ -32,7 +32,7 @@ public class AutomationTest1 {
         WebElement singin = driver.findElement(By.xpath("//button[@type='submit']"));
         singin.click();
         driver.quit();
-        String result = "test one is done";
+        System.out.println(" test is done ");
 
     }
     public static void Test2(){ // Test Case ID: AN01.2
@@ -46,6 +46,7 @@ public class AutomationTest1 {
         WebElement singin = driver.findElement(By.xpath("//button[@type='submit']"));
         singin.click();
         driver.quit();
+        System.out.println(" test is done ");
 
 
     }
@@ -70,6 +71,7 @@ public class AutomationTest1 {
        // WebElement submit  = driver.findElement(By.xpath("//button[@type='submit']")); submit button is not working even i click on the button manualy , i think it is web site's problem
        // submit.click();
         driver.quit();
+        System.out.println(" test is done ");
 
 
     }
@@ -94,6 +96,7 @@ public class AutomationTest1 {
         //WebElement submit  = driver.findElement(By.xpath("//button[@type='submit']"));
        // submit.click();
         driver.quit();
+        System.out.println(" test is done ");
     }
 }
 
