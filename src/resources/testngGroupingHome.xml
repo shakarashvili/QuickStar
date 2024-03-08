@@ -1,0 +1,26 @@
+<!-- Файл testngGroupingHome.xml -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Grouping Suite">
+    <test name="First Group">
+        <groups>
+            <run>
+                <include name="first"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="grouping.Groups"/>
+        </classes>
+    </test>
+    <test name="Second Group">
+        <groups>
+            <run>
+                <include name="second"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="grouping.Groups"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<!-- Файл testngParallelHome.xml -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel Suite" parallel="tests">
+    <test name="ParallelClass1">
+        <classes>
+            <class name="parallelismus.ParallelClass1"/>
+        </classes>
+    </test>
+    <test name="ParallelClass2">
+        <classes>
+            <class name="parallelismus.ParallelClass2"/>
+        </classes>
+    </test>
+</suite>
